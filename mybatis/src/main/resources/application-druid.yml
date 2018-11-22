@@ -32,3 +32,8 @@ spring:
     # 合并多个DruidDataSource的监控数据
     useGlobalDataSourceStat: true
     ###############以上为配置druid添加的配置########################################
+   # schema:
+    #  - classpath:sql/em.sql
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:/mapper/*.xml
